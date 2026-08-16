@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# uv-managed virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS / browser junk
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Secrets - repo-root config only (per-notebook symlinks point back here)
+/config.json
