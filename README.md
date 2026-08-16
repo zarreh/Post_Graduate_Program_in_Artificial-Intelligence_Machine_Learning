@@ -24,15 +24,32 @@ _unsorted/                  # files that couldn't be confidently matched to a
                              # manifest row (see below) - review and re-file manually
 ```
 
-Courses without a real week structure (`pre_work/`, `program_overview/`) are kept
-flat, matching how their content was originally organized.
+Courses without a real week structure (`01_pre_work/`, `00_program_overview/`) are
+kept flat, matching how their content was originally organized.
 
-Courses included: `nlp_with_generative_ai`, `generative_ai`,
-`advanced_machine_learning`, `machine_learning`, `python_foundations`,
-`pre_work`, `recommendation_systems`, `model_deployment`,
-`introduction_to_nlp`, `introduction_to_neural_networks`, `program_overview`.
-(`statistical_learning` and `introduction_to_computer_vision` had no accessible
-downloads at manifest time, so no folders were created for them.)
+Course directories are numbered to reflect the actual program curriculum order
+(derived from `00_program_overview/AIML Program - Delivery Structure.pdf` and the
+official McCombs/UT Austin program brochure), not the order they happened to be
+downloaded in:
+
+| # | Directory | Program stage |
+|---|---|---|
+| 00 | `program_overview` | Orientation / mentor onboarding material |
+| 01 | `pre_work` | Preparatory module |
+| 02 | `python_foundations` | Module 01 — Python for AI Solutions |
+| 03 | `machine_learning` | Module 02 — Predictive Modeling (Linear Regression, Decision Trees, Clustering) |
+| 04 | `advanced_machine_learning` | Module 02 — Predictive Modeling (Ensemble Techniques) |
+| 05 | `introduction_to_neural_networks` | Module 02 — Predictive Modeling (Neural Networks) |
+| 06 | `nlp_with_generative_ai` | Module 03 — Generative AI for NLP |
+| 07 | `generative_ai` | Module 04 — Agentic AI for Automation |
+| 08 | `model_deployment` | Module 05 — Deploying AI Solutions |
+| 09 | `introduction_to_computer_vision` | Self-paced elective (no accessible downloads) |
+| 10 | `statistical_learning` | Self-paced elective (no accessible downloads) |
+| 11 | `recommendation_systems` | Self-paced elective |
+| 12 | `introduction_to_nlp` | Legacy/superseded NLP course |
+
+`09_introduction_to_computer_vision` and `10_statistical_learning` have no local
+folder since nothing in those courses was accessible/downloaded at manifest time.
 
 `_unsorted/` holds ~62 files whose manifest row couldn't be confidently matched
 to a downloaded file (duplicate/renamed copies, ambiguous titles, or bonus files
@@ -91,10 +108,10 @@ directory). To keep one source of truth without duplicating secrets:
   affected). Fill in your actual `OPENAI_API_KEY`, etc. here.
 - **`config.json.example`** — placeholder template, committed to git, showing
   which keys are expected.
-- Each notebook directory that expects a local `config.json` (`pre_work/`,
-  `generative_ai/mls/`, `nlp_with_generative_ai/week_3/mls/`) instead contains a
-  **relative symlink** named `config.json` pointing back to the root file —
-  so editing the root file updates every notebook's view of it.
+- Each notebook directory that expects a local `config.json` (`01_pre_work/`,
+  `07_generative_ai/mls/`, `06_nlp_with_generative_ai/week_3/mls/`) instead
+  contains a **relative symlink** named `config.json` pointing back to the root
+  file — so editing the root file updates every notebook's view of it.
 
 ## Manifest / provenance
 

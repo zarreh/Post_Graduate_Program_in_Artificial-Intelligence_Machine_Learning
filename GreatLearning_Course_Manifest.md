@@ -2,6 +2,15 @@
 
 This manifest records every downloadable file (PDFs, Jupyter notebooks, datasets, CSVs, ZIPs, code files, spreadsheets, etc.) found across all 13 active courses on your Great Learning account, along with its category and download status. HTML text pages, videos, quizzes, and discussion forums were intentionally skipped and are not listed.
 
+Course numbering below reflects the actual program curriculum order (Program
+Overview/orientation → Pre-work → Module 01 Python for AI Solutions → Module 02
+Predictive Modeling with ML & Neural Networks → Module 03 Generative AI for NLP
+→ Module 04 Agentic AI for Automation → Module 05 Deploying AI Solutions →
+self-paced electives → legacy NLP course), derived from
+`00_program_overview/AIML Program - Delivery Structure.pdf` and the official
+McCombs/UT Austin program brochure — not the order the courses happened to be
+downloaded in, which the original numbering reflected.
+
 ## Category key
 
 | Tag | Meaning |
@@ -22,186 +31,106 @@ This manifest records every downloadable file (PDFs, Jupyter notebooks, datasets
 
 ---
 
-# Course 1: NLP with Generative AI
+# Course 1: Program Overview
 
-### Week 0 - Introduction to NLP
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Week 0 - Introduction to NLP | Lecture Slides - Intro to NLP | Lecture Notes | PDF | ✅ |
-| Week 0 - Introduction to NLP | Lecture Notes - Intro to NLP | Lecture Notes | PDF | ✅ |
-
-### Week 1 - Word Embeddings
+Small mentor-orientation / program-info course, mostly locked.
 
 | Week/Section | File Name | Category | Type | Status |
 |---|---|---|---|---|
-| Week 1 - Word Embeddings | Lecture Slides - Word Embeddings Part-1 | Lecture Notes | PDF | ✅ |
-| Week 1 - Word Embeddings | Lecture Notes - Word Embeddings Part-1 | Lecture Notes | PDF | ✅ |
-| MLS 1: Word Embeddings | Session Presentation - Word Embeddings | MLS | PDF | ✅ |
-| MLS 1: Word Embeddings | Articles.csv | MLS | CSV | ✅ |
-| MLS 1: Word Embeddings | glove.6B.100d.zip | MLS | ZIP | ✅ |
-| MLS 1: Word Embeddings | Session Notebook - Articles_Categorization | MLS | Notebook | ✅ |
-| Week 1: Additional Case Study | Product_Reviews.csv | Practice Exercise | CSV | ✅ |
-| Week 1: Additional Case Study | Solution Notebook - Product Reviews Sentiment Analysis | Practice Exercise | Notebook | ✅ |
-| [OPTIONAL] Week 1: Additional Learning Material | Lecture Slides - Text Cleaning and Vectorization | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Week 1: Additional Learning Material | Lecture Slides - Sentiment Analysis | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Week 1: Additional Learning Material | Lecture Notebook | Lecture Notebooks | Notebook | ✅ |
-| [OPTIONAL] Week 1: Additional Learning Material | movie_reviews.csv | Lecture Notebooks | CSV | ✅ |
+| Mentor Training Overview | Mentor Training Overview (Mandatory).pdf | Program Info | PDF | ✅ |
+| Mentor Training Overview | Olympus Walkthrough.pdf | Program Info | PDF | ✅ |
+| Know Your Program - PGP-AIML | AIML Program - Delivery Structure.pdf | Program Info | PDF | ✅ |
+| Content: Mentored Learning Session Week 1 (5 Resources) | — | — | — | ⚠️ |
+| Session Best Practices & Learner Handling (2 Resources) | — | — | — | ⚠️ |
 
-### Week 2 - Attention Mechanism and Transformers
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| MLS 2: Attention Mechanism and Transformers | Session Presentation - Attention Mechanism and Transformers | MLS | PDF | ✅ |
-| MLS 2: Attention Mechanism and Transformers | news_articles.csv | MLS | CSV | ✅ |
-| MLS 2: Attention Mechanism and Transformers | news_article_labels.csv | MLS | CSV | ✅ |
-| MLS 2: Attention Mechanism and Transformers | Session Notebook: News Article Categorization | MLS | Notebook | ✅ |
-| Week 2: Additional Case Study | US_Airways.csv | Practice Exercise | CSV | ✅ |
-| Week 2: Additional Case Study | Solution Notebook: Airline Customer Review Sentiment Analysis | Practice Exercise | Notebook | ✅ |
-| Week 2: Additional Case Study | Product Reviews.csv (duplicate of Week 1 file) | Practice Exercise | CSV | ✅ (dup, not re-downloaded) |
-| Week 2: Additional Case Study | Solution Notebook - Product Reviews Sentiment Analysis | Practice Exercise | Notebook | ✅ |
-
-### Week 3 - Large Language Models and Prompt Engineering
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Week 3 - LLMs and Prompt Engineering | Lecture Slides - LLMs and Prompt Engineering | Lecture Notes | PDF | ✅ |
-| Week 3 - LLMs and Prompt Engineering | Lecture Notes - LLMs and Prompt Engineering | Lecture Notes | PDF | ✅ |
-| MLS 3: LLMs and Prompt Engineering | Session Presentation - Large Language Models and Prompt Engineering | MLS | PDF | ✅ |
-| MLS 3: LLMs and Prompt Engineering | restaurant_reviews.csv | MLS | CSV | ✅ |
-| MLS 3: LLMs and Prompt Engineering | Config File | MLS | Config | ✅ |
-| MLS 3: LLMs and Prompt Engineering | Session Notebook - Restaurant_Review_Analysis | MLS | Notebook | ✅ |
-| Week 3: Additional Case Study | News Articles dataset | Practice Exercise | CSV | ✅ |
-| Week 3: Additional Case Study | Session Notebook - News_Article_Categorization_and_Summarization | Practice Exercise | Notebook | ✅ |
-
-### Week 4 - Retrieval Augmented Generation
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Week 4 - Retrieval Augmented Generation | Lecture Slides: Retrieval Augmented Generation | Lecture Notes | PDF | ✅ |
-| Week 4 - Retrieval Augmented Generation | Lecture Notes: Retrieval Augmented Generation | Lecture Notes | PDF | ✅ |
-| MLS 4: Retrieval Augmented Generation | Session Presentation: Retrieval Augmented Generation | MLS | PDF | ✅ |
-| MLS 4: Retrieval Augmented Generation | How Apple is Organized for Innovation | MLS | PDF | ✅ |
-| MLS 4: Retrieval Augmented Generation | Session Notebook: Apple HBR Report Document Q&A | MLS | Notebook | ✅ |
-
-### Project: NLP with Generative AI — Medical Assistant
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Project: Medical Assistant | medical_diagnosis_manual.pdf | Project | PDF | ✅ |
-| Project: Medical Assistant | Template Notebook: Full-code Version | Project | Notebook | ✅ |
-| Project: Medical Assistant | Presentation Template | Project | PPTX | ✅ |
-| Project Support Session | Session Presentation - Project Support | Project | PDF | ✅ |
-| Project Solution | Solution Notebook: Medical Assistant | Project | Notebook | ✅ |
-| [ONLY FOR EVALUATORS] Project Detailed Rubric | Detailed Rubric: Medical Assistant | Project | PDF/DOCX | ✅ |
-
-### Additional Project: Stock Market News Sentiment Analysis and Summarization
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Additional Project: Stock Market News | stock_news.csv | Project | CSV | ✅ |
-| Additional Project: Stock Market News | glove.6B.100d.txt.word2vec | Project | Word2Vec | ✅ |
-| Additional Project: Stock Market News | Template Notebook: Full-code Version | Project | Notebook | ✅ |
-| Additional Project: Stock Market News | Template Notebook: Low-code Version | Project | Notebook | ✅ |
-| Additional Project: Stock Market News | Presentation Template | Project | PPTX | ✅ |
-| Additional Project Solution | Solution Notebook: Stock Market Sentiment Analysis and Summarization | Project | Notebook | ✅ |
-
-**Course 1 status:** Complete — no locked/inaccessible items found.
+**Course 13 status:** Complete. 3 files downloaded. Three sections (Mentored Learning Session Week 1, Session Best Practices & Learner Handling, Mentor Checkpoint Quiz) are locked.
 
 ---
 
-# Course 2: Generative AI
+# Course 2: Pre-work
 
 | Week/Section | File Name | Category | Type | Status |
 |---|---|---|---|---|
-| Live Session Material - Agentic AI | Session Plan - Introduction to AI Agents | MLS | PDF | ✅ |
-| Live Session Material - Agentic AI | Session Deck - Introduction to AI Agents | MLS | PPTX/PDF | ✅ |
-| Live Session Material - Agentic AI | Session Notebook - Multi Agent System AI Helpdesk Copilot | MLS | Notebook | ✅ |
-| Live Session Material - Agentic AI | ticket_data.csv | MLS | CSV | ✅ |
-| Live Session Material - Agentic AI | config.json | MLS | JSON | ✅ |
-| Live Session Material - Multimodal Generative AI | Session Notebook - Browbake Case Study | MLS | Notebook | ✅ |
-| Live Session Material - Multimodal Generative AI | Sample Outputs - No-Code Tools | MLS | ZIP/Mixed | ✅ |
-| Live Session Material - Multimodal Generative AI | Sample Outputs - Python | MLS | ZIP/Mixed | ✅ |
+| Section 1: Introduction to the World of Data | Lecture Slides - Introduction to the World of Data | Lecture Notes | PDF | ✅ |
+| AIP S1 - Intro to World of AI (May'26+, Orientation) | Session Presentation: Introduction to World of Data and AI | Lecture Notes | PDF | ✅ |
+| AIP S1 - Intro to World of AI (May'26+, Orientation) | Healthcare Data | Additional Material | CSV/XLSX | ✅ |
+| AIP S1 - Intro to World of AI (May'26+, Non-Orientation) | Session Presentation: Introduction to World of Data and AI | Lecture Notes | PDF | ✅ |
+| AIP S1 - Intro to World of AI (May'26+, Non-Orientation) | Healthcare Data | Additional Material | CSV/XLSX | ✅ |
+| AIP S1 - Intro to World of AI (May'26+, Non-Orientation) | Sample Output: Content Generation using Agentic AI | Additional Material | Mixed | ✅ |
+| Session 2: Python Programming Fundamentals (May'26+) | Notebook: QuickRide | Lecture Notebooks | Notebook | ✅ |
+| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Session Notebook: Kartify Order Query Chatbot | Lecture Notebooks | Notebook | ✅ |
+| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Database: Kartify Order Query Chatbot | Additional Material | DB file | ✅ |
+| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Config File | Additional Material | Config | ✅ |
+| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Deployment Files: Kartify Order Query Chatbot | Additional Material | ZIP/Mixed | ✅ |
+| AIP S1 - Intro to World of AI (legacy, Orientation) | AI Primer - Session 1 Deck | Lecture Notes | PDF | ✅ |
+| AIP S1 - Intro to World of AI (legacy, Non-Orientation) | AI Primer - Session 1 Deck | Lecture Notes | PDF | ✅ |
+| AIP S2 - Must-Know Mathematics & Statistics | AI Primer - Session 2 Deck | Lecture Notes | PDF | ✅ |
+| AI Application Case Study #1 | INNHotelsGroup_pastdata.csv | Additional Material | CSV | ✅ |
+| AI Application Case Study #1 | INNHotelsGroup_newdata.csv | Additional Material | CSV | ✅ |
+| AI Application Case Study #1 | Session Notebook - Hotel Booking Cancellation Prediction | Lecture Notebooks | Notebook | ✅ |
+| AI Application Case Study #1 | Model Deployment Files - Hotel Booking Cancellation Prediction | Additional Material | Mixed | ✅ |
+| AI Application Case Study #2 (COVID Detection) | X-ray Data.zip, COVID Detection Notebook, Sample Best Model | — | — | ✅ (duplicates of Course 5, not re-downloaded) |
+| AI Application Case Study #2 (COVID Detection) | Model Deployment Files - COVID Detection | Additional Material | Mixed | ✅ |
+| AI Application Case Study #3 | US_Airways.csv | Additional Material | CSV | ✅ |
+| AI Application Case Study #3 | Session Notebook: Airline Customer Sentiment Analysis | Lecture Notebooks | Notebook | ✅ |
+| AI Application Case Study #3 | Model Deployment Files: Airline Customer Sentiment Analysis | Additional Material | Mixed | ✅ |
+| [OPTIONAL] Section 3: Gen AI Business Landscape | Lecture Slides - Generative AI Primer | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Section 3: Gen AI Business Landscape | chatgpt-prompts.txt | Additional Material | TXT | ✅ |
+| [OPTIONAL] Section 3: Gen AI Business Landscape | Getting set up with ChatGPT.pdf | Additional Material | PDF | ✅ |
+| [OPTIONAL] Section 4: Insights and Impact | Lecture Slides - Insights and Impact - Transforming Industries with Data Science.pdf | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Section 5: The Art and Science of Data | Lecture Slides - The Art and Science of Data.pdf | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Section 6: Beyond the Numbers | Lecture Slides - Beyond the Numbers.pdf | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Section 7: Data Science and AI Essentials | Lecture Slides - Data Science Essentials.pdf | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Section 7: Data Science and AI Essentials | Hands-on File - Bayes Rule example.xlsx | Additional Material | XLSX | ✅ |
+| [OPTIONAL] Section 8: ChatGPT Overview and Applications | Lecture Slides - ChatGPT Generative AI and Applications | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Section 8: ChatGPT Overview and Applications | openai_api_demo.ipynb | Lecture Notebooks | Notebook | ✅ |
 
-**Course 2 status:** Complete — no locked/inaccessible items found.
+**Course 6 status:** Complete — no locked/inaccessible items found. 30 new files downloaded (3 skipped as exact duplicates of Course 5's COVID Detection case study).
 
 ---
 
-# Course 3: Advanced Machine Learning
-
-### Week 1: Bagging and Random Forest
+# Course 3: Python Foundations
 
 | Week/Section | File Name | Category | Type | Status |
 |---|---|---|---|---|
-| Week 1: Bagging and Random Forest | Lecture Slides and Notes - Bagging and Random Forest | Lecture Notes | PDF | ✅ |
-| MLS 1: Bagging and Random Forest | Session Presentation - Bagging and Random Forest | MLS | PDF | ✅ |
-| MLS 1: Bagging and Random Forest | HR_Employee_Attrition.csv | MLS | CSV | ✅ |
-| MLS 1: Bagging and Random Forest | Session Notebook - HR Attrition | MLS | Notebook | ✅ |
-| Week 1: Additional Case Study | pima-indians-diabetes.csv | Practice Exercise | CSV | ✅ |
-| Week 1: Additional Case Study | Solution Notebook - Diabetes Risk Prediction | Practice Exercise | Notebook | ✅ |
+| Project Detailed Rubrics | Detailed Rubric FoodHub.pdf | Project | PDF | ✅ |
+| Project Detailed Rubrics | Detailed Rubric: Austo | Additional Project | PDF | ✅ |
+| AI Application Case Study #2: COVID Detection | X-ray Data.zip | Additional Material | ZIP | ✅ |
+| AI Application Case Study #2: COVID Detection | Session Notebook: COVID Detection | Lecture Notebooks | Notebook | ✅ |
+| AI Application Case Study #2: COVID Detection | Sample Best Model | Additional Material | Model file | ✅ |
+| MLS 1: Introduction to Python | Session Presentation: Introduction to Python | Lecture Notes | PDF | ✅ |
+| MLS 1: Introduction to Python | Session_Notebook: Cred-Pay Case Study | Lecture Notebooks | Notebook | ✅ |
+| MLS 2: Data Manipulation | Session Presentation: Data Manipulation | Lecture Notes | PDF | ✅ |
+| MLS 2: Data Manipulation | movie.csv | Additional Material | CSV | ✅ |
+| MLS 2: Data Manipulation | user.csv | Additional Material | CSV | ✅ |
+| MLS 2: Data Manipulation | ratings.csv | Additional Material | CSV | ✅ |
+| MLS 2: Data Manipulation | Session Notebook - MovieLens Case Study.ipynb | Lecture Notebooks | Notebook | ✅ |
+| MLS 3: Exploratory Data Analysis | Session Presentation: Exploratory Data Analysis | Lecture Notes | PDF | ✅ |
+| MLS 3: Exploratory Data Analysis | Uber_Data.csv | Additional Material | CSV | ✅ |
+| MLS 3: Exploratory Data Analysis | Session Notebook: Uber Case Study | Lecture Notebooks | Notebook | ✅ |
+| Week 3: Additional Case Study | tips.csv | Practice Exercise | CSV | ✅ |
+| Week 3: Additional Case Study | Solution Notebook: Tips Case Study | Practice Exercise | Notebook | ✅ |
+| Week 3: Additional Case Study | honeyproduction1998-2016.csv | Practice Exercise | CSV | ✅ |
+| Week 3: Additional Case Study | Solution Notebook: Honey Production Case Study | Practice Exercise | Notebook | ✅ |
+| Week 3: Additional Case Study | Play_Store_2.csv | Practice Exercise | CSV | ✅ |
+| Week 3: Additional Case Study | Solution Notebook: Google Play Store Case Study | Practice Exercise | Notebook | ✅ |
+| Week 4: Analyzing Text Data | Lecture Slides - Text Cleaning and Vectorization | Lecture Notes | PDF | ✅ |
+| Week 4: Analyzing Text Data | Lecture Slides - Sentiment Analysis | Lecture Notes | PDF | ✅ |
+| MLS 4: Analyzing Text Data | Session Presentation: Analyzing Text Data | Lecture Notes | PDF | ✅ |
+| MLS 4: Analyzing Text Data | Product_Reviews.csv | Additional Material | CSV | ✅ |
+| MLS 4: Analyzing Text Data | Session Notebook: Product Review Sentiment Analysis | Lecture Notebooks | Notebook | ✅ |
+| Project: FoodHub | foodhub_order.csv | Project | CSV | ✅ |
+| Project: FoodHub | Template Notebook: Low-code Version | Project | Notebook | ✅ |
+| Project: FoodHub | Presentation Template | Project | PPTX | ✅ |
+| Project: FoodHub | Template Notebook: Full-code Version | Project | Notebook | ✅ |
+| Project Support Session: FoodHub | Session Presentation: Project Support | Lecture Notes | PDF | ✅ |
+| Project Solution: FoodHub | Business Presentation: FoodHub | Project | PPTX/PDF | ✅ |
+| Project Solution: FoodHub | Solution Notebook FoodHub | Project | Notebook | ✅ |
+| Additional Project: Austo | austo_automobile.csv | Additional Project | CSV | ✅ |
+| Additional Project: Austo | Template Notebook: Low-code Version | Additional Project | Notebook | ✅ |
+| Additional Project: Austo | Template Notebook: Full-code Version | Additional Project | Notebook | ✅ |
 
-### Week 2: Boosting
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Week 2: Boosting | Lecture Slides - Boosting | Lecture Notes | PDF | ✅ |
-| Week 2: Boosting | Lecture Notes - Boosting | Lecture Notes | PDF | ✅ |
-| MLS 2: Boosting | Session Presentation - Boosting | MLS | PDF | ✅ |
-| MLS 2: Boosting | hour.csv | MLS | CSV | ✅ |
-| MLS 2: Boosting | Session Notebook - Bike Sharing | MLS | Notebook | ✅ |
-| Week 2: Additional Case Study | winequality.csv | Practice Exercise | CSV | ✅ |
-| Week 2: Additional Case Study | Solution Notebook - Wine Quality Prediction | Practice Exercise | Notebook | ✅ |
-| [OPTIONAL] Week 2: Additional Learning Material | Lecture Slides - Additional Learning Material | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Week 2: Additional Learning Material | Lecture Notes - Additional Learning Material | Lecture Notes | PDF | ✅ |
-
-### Week 3: Model Tuning
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Week 3: Model Tuning | Lecture Slides - K fold cross validation | Lecture Notes | PDF | ✅ |
-| Week 3: Model Tuning | Lecture Slides - Oversampling and undersampling | Lecture Notes | PDF | ✅ |
-| Week 3: Model Tuning | Lecture Slides - Hyperparameter tuning | Lecture Notes | PDF | ✅ |
-| MLS 3: Model Tuning | Session Presentation - Model Tuning | MLS | PDF | ✅ |
-| MLS 3: Model Tuning | Session Notebook - Employee Churn Prediction | MLS | Notebook | ✅ |
-| MLS 3: Model Tuning | Jobs Data.csv | MLS | CSV | ✅ |
-| Week 3: Reference material | A Monograph on bias-variance and cross-validation | Additional Material | PDF | ✅ |
-| Week 3: Additional Case Study | German Credit.csv | Practice Exercise | CSV | ✅ |
-| Week 3: Additional Case Study | Solution Notebook - German Credit Analysis | Practice Exercise | Notebook | ✅ |
-| [OPTIONAL] Week 3: Additional Learning Material | Lecture Slides - Regularization | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Week 3: Additional Learning Material | Lecture Slides - Pipelines and Hyperparameter tuning | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Week 3: Additional Learning Material | Hands-on Notebook: Lasso-Ridge regression model | Lecture Notebooks | Notebook | ✅ |
-| [OPTIONAL] Week 3: Additional Learning Material | car-mpg.csv | Lecture Notebooks | CSV | ✅ |
-| [OPTIONAL] Week 3: Additional Learning Material | Hands-on Notebook: Imputed Pima Notebook | Lecture Notebooks | Notebook | ✅ |
-| [OPTIONAL] Week 3: Additional Learning Material | pima-indians-diabetes.csv | Lecture Notebooks | CSV | ✅ |
-
-### Projects (EasyVisa, Employee Promotion Prediction, Credit Card Users Churn Prediction)
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Project 3: EasyVisa | EasyVisa.csv | Project | CSV | ✅ |
-| Project 3: EasyVisa | Presentation Template | Project | PPTX | ✅ |
-| Project 3: EasyVisa | Learner Notebook - Full code version | Project | Notebook | ✅ |
-| Project 3: EasyVisa | Learner Notebook - Low code version | Project | Notebook | ✅ |
-| Project Support Session: EasyVisa | Session Presentation - Project Support | Project | PDF | ✅ |
-| Project 3 Solution: EasyVisa | Business Presentation - EasyVisa | Project | PPTX/PDF | ✅ |
-| Project 3 Solution: EasyVisa | Solution Notebook - EasyVisa | Project | Notebook | ✅ |
-| Project 3 Detailed Rubric (pre-Dec'25 cohorts) | EasyVisa Project Detailed Rubric | Project | PDF | ✅ |
-| Project 3 Detailed Rubric (Dec'25+ cohorts) | EasyVisa Project Detailed Rubric | Project | PDF | ✅ |
-| Additional Project 3: Employee Promotion Prediction | Employee Promotion Prediction.csv | Project | CSV | ✅ |
-| Additional Project 3: Employee Promotion Prediction | Learner Notebook - Full code version | Project | Notebook | ✅ |
-| Additional Project 3: Employee Promotion Prediction | Learner Notebook - Low code version | Project | Notebook | ✅ |
-| Additional Project: Detailed Rubric (Sep'24 and earlier) | Rubrics Tracker - Employee Promotion.pdf | Project | PDF | ✅ |
-| Additional Project 3 Debrief: Employee Promotion Prediction | Business Presentation - Employee Promotion Prediction | Project | PPTX/PDF | ✅ |
-| Additional Project 3 Debrief: Employee Promotion Prediction | Solution Notebook - Employee Promotion Prediction | Project | Notebook | ✅ |
-| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | BankChurners.csv | Project | CSV | ✅ |
-| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | Learner Notebook - Full code version | Project | Notebook | ✅ |
-| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | Learner Notebook - Low code version | Project | Notebook | ✅ |
-| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | Presentation Template | Project | PPTX | ✅ |
-| Project Detailed Rubric (Sep'24 and earlier) | Credit Card Churn Project Detailed Rubric | Project | PDF | ✅ |
-| MLS 4 Debrief (Sep'24 and earlier): Credit Card Users Churn Prediction | Business Presentation - Credit Card Users Churn Prediction | Project | PPTX/PDF | ✅ |
-| MLS 4 Debrief (Sep'24 and earlier): Credit Card Users Churn Prediction | Solution Notebook - Credit Card Users Churn Prediction | Project | Notebook | ✅ |
-
-**Course 3 status:** Complete — no locked/inaccessible items found.
+**Course 5 status:** Complete — no locked/inaccessible items found. 34 files downloaded.
 
 ---
 
@@ -293,137 +222,216 @@ This manifest records every downloadable file (PDFs, Jupyter notebooks, datasets
 
 ---
 
-# Course 5: Python Foundations
+# Course 5: Advanced Machine Learning
+
+### Week 1: Bagging and Random Forest
 
 | Week/Section | File Name | Category | Type | Status |
 |---|---|---|---|---|
-| Project Detailed Rubrics | Detailed Rubric FoodHub.pdf | Project | PDF | ✅ |
-| Project Detailed Rubrics | Detailed Rubric: Austo | Additional Project | PDF | ✅ |
-| AI Application Case Study #2: COVID Detection | X-ray Data.zip | Additional Material | ZIP | ✅ |
-| AI Application Case Study #2: COVID Detection | Session Notebook: COVID Detection | Lecture Notebooks | Notebook | ✅ |
-| AI Application Case Study #2: COVID Detection | Sample Best Model | Additional Material | Model file | ✅ |
-| MLS 1: Introduction to Python | Session Presentation: Introduction to Python | Lecture Notes | PDF | ✅ |
-| MLS 1: Introduction to Python | Session_Notebook: Cred-Pay Case Study | Lecture Notebooks | Notebook | ✅ |
-| MLS 2: Data Manipulation | Session Presentation: Data Manipulation | Lecture Notes | PDF | ✅ |
-| MLS 2: Data Manipulation | movie.csv | Additional Material | CSV | ✅ |
-| MLS 2: Data Manipulation | user.csv | Additional Material | CSV | ✅ |
-| MLS 2: Data Manipulation | ratings.csv | Additional Material | CSV | ✅ |
-| MLS 2: Data Manipulation | Session Notebook - MovieLens Case Study.ipynb | Lecture Notebooks | Notebook | ✅ |
-| MLS 3: Exploratory Data Analysis | Session Presentation: Exploratory Data Analysis | Lecture Notes | PDF | ✅ |
-| MLS 3: Exploratory Data Analysis | Uber_Data.csv | Additional Material | CSV | ✅ |
-| MLS 3: Exploratory Data Analysis | Session Notebook: Uber Case Study | Lecture Notebooks | Notebook | ✅ |
-| Week 3: Additional Case Study | tips.csv | Practice Exercise | CSV | ✅ |
-| Week 3: Additional Case Study | Solution Notebook: Tips Case Study | Practice Exercise | Notebook | ✅ |
-| Week 3: Additional Case Study | honeyproduction1998-2016.csv | Practice Exercise | CSV | ✅ |
-| Week 3: Additional Case Study | Solution Notebook: Honey Production Case Study | Practice Exercise | Notebook | ✅ |
-| Week 3: Additional Case Study | Play_Store_2.csv | Practice Exercise | CSV | ✅ |
-| Week 3: Additional Case Study | Solution Notebook: Google Play Store Case Study | Practice Exercise | Notebook | ✅ |
-| Week 4: Analyzing Text Data | Lecture Slides - Text Cleaning and Vectorization | Lecture Notes | PDF | ✅ |
-| Week 4: Analyzing Text Data | Lecture Slides - Sentiment Analysis | Lecture Notes | PDF | ✅ |
-| MLS 4: Analyzing Text Data | Session Presentation: Analyzing Text Data | Lecture Notes | PDF | ✅ |
-| MLS 4: Analyzing Text Data | Product_Reviews.csv | Additional Material | CSV | ✅ |
-| MLS 4: Analyzing Text Data | Session Notebook: Product Review Sentiment Analysis | Lecture Notebooks | Notebook | ✅ |
-| Project: FoodHub | foodhub_order.csv | Project | CSV | ✅ |
-| Project: FoodHub | Template Notebook: Low-code Version | Project | Notebook | ✅ |
-| Project: FoodHub | Presentation Template | Project | PPTX | ✅ |
-| Project: FoodHub | Template Notebook: Full-code Version | Project | Notebook | ✅ |
-| Project Support Session: FoodHub | Session Presentation: Project Support | Lecture Notes | PDF | ✅ |
-| Project Solution: FoodHub | Business Presentation: FoodHub | Project | PPTX/PDF | ✅ |
-| Project Solution: FoodHub | Solution Notebook FoodHub | Project | Notebook | ✅ |
-| Additional Project: Austo | austo_automobile.csv | Additional Project | CSV | ✅ |
-| Additional Project: Austo | Template Notebook: Low-code Version | Additional Project | Notebook | ✅ |
-| Additional Project: Austo | Template Notebook: Full-code Version | Additional Project | Notebook | ✅ |
+| Week 1: Bagging and Random Forest | Lecture Slides and Notes - Bagging and Random Forest | Lecture Notes | PDF | ✅ |
+| MLS 1: Bagging and Random Forest | Session Presentation - Bagging and Random Forest | MLS | PDF | ✅ |
+| MLS 1: Bagging and Random Forest | HR_Employee_Attrition.csv | MLS | CSV | ✅ |
+| MLS 1: Bagging and Random Forest | Session Notebook - HR Attrition | MLS | Notebook | ✅ |
+| Week 1: Additional Case Study | pima-indians-diabetes.csv | Practice Exercise | CSV | ✅ |
+| Week 1: Additional Case Study | Solution Notebook - Diabetes Risk Prediction | Practice Exercise | Notebook | ✅ |
 
-**Course 5 status:** Complete — no locked/inaccessible items found. 34 files downloaded.
-
----
-
-# Course 6: Pre-work
+### Week 2: Boosting
 
 | Week/Section | File Name | Category | Type | Status |
 |---|---|---|---|---|
-| Section 1: Introduction to the World of Data | Lecture Slides - Introduction to the World of Data | Lecture Notes | PDF | ✅ |
-| AIP S1 - Intro to World of AI (May'26+, Orientation) | Session Presentation: Introduction to World of Data and AI | Lecture Notes | PDF | ✅ |
-| AIP S1 - Intro to World of AI (May'26+, Orientation) | Healthcare Data | Additional Material | CSV/XLSX | ✅ |
-| AIP S1 - Intro to World of AI (May'26+, Non-Orientation) | Session Presentation: Introduction to World of Data and AI | Lecture Notes | PDF | ✅ |
-| AIP S1 - Intro to World of AI (May'26+, Non-Orientation) | Healthcare Data | Additional Material | CSV/XLSX | ✅ |
-| AIP S1 - Intro to World of AI (May'26+, Non-Orientation) | Sample Output: Content Generation using Agentic AI | Additional Material | Mixed | ✅ |
-| Session 2: Python Programming Fundamentals (May'26+) | Notebook: QuickRide | Lecture Notebooks | Notebook | ✅ |
-| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Session Notebook: Kartify Order Query Chatbot | Lecture Notebooks | Notebook | ✅ |
-| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Database: Kartify Order Query Chatbot | Additional Material | DB file | ✅ |
-| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Config File | Additional Material | Config | ✅ |
-| Session 3: Gen AI and Agentic AI Landscape (May'26+) | Deployment Files: Kartify Order Query Chatbot | Additional Material | ZIP/Mixed | ✅ |
-| AIP S1 - Intro to World of AI (legacy, Orientation) | AI Primer - Session 1 Deck | Lecture Notes | PDF | ✅ |
-| AIP S1 - Intro to World of AI (legacy, Non-Orientation) | AI Primer - Session 1 Deck | Lecture Notes | PDF | ✅ |
-| AIP S2 - Must-Know Mathematics & Statistics | AI Primer - Session 2 Deck | Lecture Notes | PDF | ✅ |
-| AI Application Case Study #1 | INNHotelsGroup_pastdata.csv | Additional Material | CSV | ✅ |
-| AI Application Case Study #1 | INNHotelsGroup_newdata.csv | Additional Material | CSV | ✅ |
-| AI Application Case Study #1 | Session Notebook - Hotel Booking Cancellation Prediction | Lecture Notebooks | Notebook | ✅ |
-| AI Application Case Study #1 | Model Deployment Files - Hotel Booking Cancellation Prediction | Additional Material | Mixed | ✅ |
-| AI Application Case Study #2 (COVID Detection) | X-ray Data.zip, COVID Detection Notebook, Sample Best Model | — | — | ✅ (duplicates of Course 5, not re-downloaded) |
-| AI Application Case Study #2 (COVID Detection) | Model Deployment Files - COVID Detection | Additional Material | Mixed | ✅ |
-| AI Application Case Study #3 | US_Airways.csv | Additional Material | CSV | ✅ |
-| AI Application Case Study #3 | Session Notebook: Airline Customer Sentiment Analysis | Lecture Notebooks | Notebook | ✅ |
-| AI Application Case Study #3 | Model Deployment Files: Airline Customer Sentiment Analysis | Additional Material | Mixed | ✅ |
-| [OPTIONAL] Section 3: Gen AI Business Landscape | Lecture Slides - Generative AI Primer | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Section 3: Gen AI Business Landscape | chatgpt-prompts.txt | Additional Material | TXT | ✅ |
-| [OPTIONAL] Section 3: Gen AI Business Landscape | Getting set up with ChatGPT.pdf | Additional Material | PDF | ✅ |
-| [OPTIONAL] Section 4: Insights and Impact | Lecture Slides - Insights and Impact - Transforming Industries with Data Science.pdf | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Section 5: The Art and Science of Data | Lecture Slides - The Art and Science of Data.pdf | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Section 6: Beyond the Numbers | Lecture Slides - Beyond the Numbers.pdf | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Section 7: Data Science and AI Essentials | Lecture Slides - Data Science Essentials.pdf | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Section 7: Data Science and AI Essentials | Hands-on File - Bayes Rule example.xlsx | Additional Material | XLSX | ✅ |
-| [OPTIONAL] Section 8: ChatGPT Overview and Applications | Lecture Slides - ChatGPT Generative AI and Applications | Lecture Notes | PDF | ✅ |
-| [OPTIONAL] Section 8: ChatGPT Overview and Applications | openai_api_demo.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Week 2: Boosting | Lecture Slides - Boosting | Lecture Notes | PDF | ✅ |
+| Week 2: Boosting | Lecture Notes - Boosting | Lecture Notes | PDF | ✅ |
+| MLS 2: Boosting | Session Presentation - Boosting | MLS | PDF | ✅ |
+| MLS 2: Boosting | hour.csv | MLS | CSV | ✅ |
+| MLS 2: Boosting | Session Notebook - Bike Sharing | MLS | Notebook | ✅ |
+| Week 2: Additional Case Study | winequality.csv | Practice Exercise | CSV | ✅ |
+| Week 2: Additional Case Study | Solution Notebook - Wine Quality Prediction | Practice Exercise | Notebook | ✅ |
+| [OPTIONAL] Week 2: Additional Learning Material | Lecture Slides - Additional Learning Material | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Week 2: Additional Learning Material | Lecture Notes - Additional Learning Material | Lecture Notes | PDF | ✅ |
 
-**Course 6 status:** Complete — no locked/inaccessible items found. 30 new files downloaded (3 skipped as exact duplicates of Course 5's COVID Detection case study).
-
----
-
-# Course 7: Recommendation Systems
+### Week 3: Model Tuning
 
 | Week/Section | File Name | Category | Type | Status |
 |---|---|---|---|---|
-| Intro to RecoSys, MBA, Popularity & Content Based | popularity based recommendations.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Intro to RecoSys, MBA, Popularity & Content Based | movies.csv | Additional Material | CSV | ✅ |
-| Intro to RecoSys, MBA, Popularity & Content Based | ratings.csv | Additional Material | CSV | ✅ |
-| Intro to RecoSys, MBA, Popularity & Content Based | cosine similarity.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Intro to RecoSys, MBA, Popularity & Content Based | content based recommendation_detailed.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Intro to RecoSys, MBA, Popularity & Content Based | Recommendation Systems slides.pdf | Lecture Notes | PDF | ✅ |
-| Intro to RecoSys, MBA, Popularity & Content Based | Recommendation Systems slides_v1.ppt.pptx | Lecture Notes | PPTX | ✅ |
-| Intro to RecoSys - Case study, dataset, presentation | Presentation - Intro to RecoSys | Lecture Notes | PDF | ✅ |
-| Intro to RecoSys - Case study, dataset, presentation | Case Study Notebook - Intro to RecoSys | Lecture Notebooks | Notebook | ✅ |
-| Intro to RecoSys - Case study, dataset, presentation | books.csv | Additional Material | CSV | ✅ |
-| Intro to RecoSys - Case study, dataset, presentation | jokes.csv | Additional Material | CSV | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | apriori based recommendation.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | item-item collab filtering.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | item-item cosine similarity.xlsx | Additional Material | XLSX | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | links.csv | Additional Material | CSV | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | matrix factorization.xlsx | Additional Material | XLSX | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | matrix factorization_detailed.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | movies (2).csv | Additional Material | CSV | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | ratings (1).csv | Additional Material | CSV | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | similarty measures.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | tags.csv | Additional Material | CSV | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | user-user cosine similarity.xlsx | Additional Material | XLSX | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | user-usercolabfilter.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | SVD.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | Recommendation Systems_slides-1.pdf | Lecture Notes | PDF | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | Recommendation Systems_slides_v1.ppt.pptx | Lecture Notes | PPTX | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | SVD-1.pdf | Lecture Notes | PDF | ✅ |
-| Collaborative Filtering, SVD, Hybrid RecoSys | SVD_v1.ppt.pptx | Lecture Notes | PPTX | ✅ |
-| Collaborative Filtering - Case study, dataset, presentation | Presentation - Collaborative Filtering | Lecture Notes | PDF | ✅ |
-| Collaborative Filtering - Case study, dataset, presentation | Case Study Notebook - Collaborative Filtering | Lecture Notebooks | Notebook | ✅ |
-| Collaborative Filtering - Case study, dataset, presentation | rating_final.csv | Additional Material | CSV | ✅ |
-| Practice Project on Recommendation Systems | RS_Amazon Product Recommendation Project - Problem Statement | Project | PDF | ✅ |
-| Project Debrief (Recommendation Systems) | Project Debrief Presentation | Project | PDF | ✅ |
-| Project Debrief (Recommendation Systems) | Recommendation System Project Sample Solution Notebook | Project | Notebook | ✅ |
+| Week 3: Model Tuning | Lecture Slides - K fold cross validation | Lecture Notes | PDF | ✅ |
+| Week 3: Model Tuning | Lecture Slides - Oversampling and undersampling | Lecture Notes | PDF | ✅ |
+| Week 3: Model Tuning | Lecture Slides - Hyperparameter tuning | Lecture Notes | PDF | ✅ |
+| MLS 3: Model Tuning | Session Presentation - Model Tuning | MLS | PDF | ✅ |
+| MLS 3: Model Tuning | Session Notebook - Employee Churn Prediction | MLS | Notebook | ✅ |
+| MLS 3: Model Tuning | Jobs Data.csv | MLS | CSV | ✅ |
+| Week 3: Reference material | A Monograph on bias-variance and cross-validation | Additional Material | PDF | ✅ |
+| Week 3: Additional Case Study | German Credit.csv | Practice Exercise | CSV | ✅ |
+| Week 3: Additional Case Study | Solution Notebook - German Credit Analysis | Practice Exercise | Notebook | ✅ |
+| [OPTIONAL] Week 3: Additional Learning Material | Lecture Slides - Regularization | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Week 3: Additional Learning Material | Lecture Slides - Pipelines and Hyperparameter tuning | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Week 3: Additional Learning Material | Hands-on Notebook: Lasso-Ridge regression model | Lecture Notebooks | Notebook | ✅ |
+| [OPTIONAL] Week 3: Additional Learning Material | car-mpg.csv | Lecture Notebooks | CSV | ✅ |
+| [OPTIONAL] Week 3: Additional Learning Material | Hands-on Notebook: Imputed Pima Notebook | Lecture Notebooks | Notebook | ✅ |
+| [OPTIONAL] Week 3: Additional Learning Material | pima-indians-diabetes.csv | Lecture Notebooks | CSV | ✅ |
 
-**Course 7 status:** Complete — no locked/inaccessible items found. 33 files downloaded.
+### Projects (EasyVisa, Employee Promotion Prediction, Credit Card Users Churn Prediction)
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Project 3: EasyVisa | EasyVisa.csv | Project | CSV | ✅ |
+| Project 3: EasyVisa | Presentation Template | Project | PPTX | ✅ |
+| Project 3: EasyVisa | Learner Notebook - Full code version | Project | Notebook | ✅ |
+| Project 3: EasyVisa | Learner Notebook - Low code version | Project | Notebook | ✅ |
+| Project Support Session: EasyVisa | Session Presentation - Project Support | Project | PDF | ✅ |
+| Project 3 Solution: EasyVisa | Business Presentation - EasyVisa | Project | PPTX/PDF | ✅ |
+| Project 3 Solution: EasyVisa | Solution Notebook - EasyVisa | Project | Notebook | ✅ |
+| Project 3 Detailed Rubric (pre-Dec'25 cohorts) | EasyVisa Project Detailed Rubric | Project | PDF | ✅ |
+| Project 3 Detailed Rubric (Dec'25+ cohorts) | EasyVisa Project Detailed Rubric | Project | PDF | ✅ |
+| Additional Project 3: Employee Promotion Prediction | Employee Promotion Prediction.csv | Project | CSV | ✅ |
+| Additional Project 3: Employee Promotion Prediction | Learner Notebook - Full code version | Project | Notebook | ✅ |
+| Additional Project 3: Employee Promotion Prediction | Learner Notebook - Low code version | Project | Notebook | ✅ |
+| Additional Project: Detailed Rubric (Sep'24 and earlier) | Rubrics Tracker - Employee Promotion.pdf | Project | PDF | ✅ |
+| Additional Project 3 Debrief: Employee Promotion Prediction | Business Presentation - Employee Promotion Prediction | Project | PPTX/PDF | ✅ |
+| Additional Project 3 Debrief: Employee Promotion Prediction | Solution Notebook - Employee Promotion Prediction | Project | Notebook | ✅ |
+| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | BankChurners.csv | Project | CSV | ✅ |
+| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | Learner Notebook - Full code version | Project | Notebook | ✅ |
+| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | Learner Notebook - Low code version | Project | Notebook | ✅ |
+| Project 3 (Sep'24 and earlier): Credit Card Users Churn Prediction | Presentation Template | Project | PPTX | ✅ |
+| Project Detailed Rubric (Sep'24 and earlier) | Credit Card Churn Project Detailed Rubric | Project | PDF | ✅ |
+| MLS 4 Debrief (Sep'24 and earlier): Credit Card Users Churn Prediction | Business Presentation - Credit Card Users Churn Prediction | Project | PPTX/PDF | ✅ |
+| MLS 4 Debrief (Sep'24 and earlier): Credit Card Users Churn Prediction | Solution Notebook - Credit Card Users Churn Prediction | Project | Notebook | ✅ |
+
+**Course 3 status:** Complete — no locked/inaccessible items found.
 
 ---
 
-# Course 8: Model Deployment
+# Course 6: Introduction to Neural Networks
+
+**⚠️ Mostly locked.** Only Course Overview and Week 1's core video/lecture-notes content are accessible; Week 1's own sub-sections (Reference Material, Additional Learning Material, Additional Case Study) plus everything from MLS 1 onward is locked.
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Week 1: Introduction to Neural Networks | Hands_on_Introduction_to_Neural_Networks_Notebook.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Week 1: Introduction to Neural Networks | Lecture Notes - Introduction to Neural Networks (Part 1).pdf | Lecture Notes | PDF | ✅ |
+| Week 1: Introduction to Neural Networks | Lecture Notes - Introduction to Neural Networks (Part 2).pdf | Lecture Notes | PDF | ✅ |
+| Week 1: Introduction to Neural Networks | Lecture Notes - Introduction to Neural Networks (Part 3).pdf | Lecture Notes | PDF | ✅ |
+| Week 1: Additional Learning Material (1 Resource) | — | — | — | ⚠️ |
+| Week 1: Reference Material (7 Resources) | — | — | — | ⚠️ |
+| Week 1: Additional Case Study (3 Resources) | — | — | — | ⚠️ |
+| MLS 1: Introduction to Neural Networks (5 Resources) | — | — | — | ⚠️ |
+| Week 2: Optimizing Neural Networks (5 Resources) | — | — | — | ⚠️ |
+| Week 2: Reference Material (2 Resources) | — | — | — | ⚠️ |
+| Week 2: Additional Learning Material (2 Resources) | — | — | — | ⚠️ |
+| Week 2: Additional Case Studies (6 Resources) | — | — | — | ⚠️ |
+| MLS 2: Optimizing Neural Networks (5 Resources) | — | — | — | ⚠️ |
+| Project Support Session: ReneWind (2 Resources) | — | — | — | ⚠️ |
+| Project: ReneWind - Solution (2 Resources) | — | — | — | ⚠️ |
+
+**Course 12 status:** Mostly locked. Only Week 1's core content was accessible (4 files downloaded). All 13 remaining sections (56 resources total) are locked.
+
+---
+
+# Course 7: NLP with Generative AI
+
+### Week 0 - Introduction to NLP
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Week 0 - Introduction to NLP | Lecture Slides - Intro to NLP | Lecture Notes | PDF | ✅ |
+| Week 0 - Introduction to NLP | Lecture Notes - Intro to NLP | Lecture Notes | PDF | ✅ |
+
+### Week 1 - Word Embeddings
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Week 1 - Word Embeddings | Lecture Slides - Word Embeddings Part-1 | Lecture Notes | PDF | ✅ |
+| Week 1 - Word Embeddings | Lecture Notes - Word Embeddings Part-1 | Lecture Notes | PDF | ✅ |
+| MLS 1: Word Embeddings | Session Presentation - Word Embeddings | MLS | PDF | ✅ |
+| MLS 1: Word Embeddings | Articles.csv | MLS | CSV | ✅ |
+| MLS 1: Word Embeddings | glove.6B.100d.zip | MLS | ZIP | ✅ |
+| MLS 1: Word Embeddings | Session Notebook - Articles_Categorization | MLS | Notebook | ✅ |
+| Week 1: Additional Case Study | Product_Reviews.csv | Practice Exercise | CSV | ✅ |
+| Week 1: Additional Case Study | Solution Notebook - Product Reviews Sentiment Analysis | Practice Exercise | Notebook | ✅ |
+| [OPTIONAL] Week 1: Additional Learning Material | Lecture Slides - Text Cleaning and Vectorization | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Week 1: Additional Learning Material | Lecture Slides - Sentiment Analysis | Lecture Notes | PDF | ✅ |
+| [OPTIONAL] Week 1: Additional Learning Material | Lecture Notebook | Lecture Notebooks | Notebook | ✅ |
+| [OPTIONAL] Week 1: Additional Learning Material | movie_reviews.csv | Lecture Notebooks | CSV | ✅ |
+
+### Week 2 - Attention Mechanism and Transformers
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| MLS 2: Attention Mechanism and Transformers | Session Presentation - Attention Mechanism and Transformers | MLS | PDF | ✅ |
+| MLS 2: Attention Mechanism and Transformers | news_articles.csv | MLS | CSV | ✅ |
+| MLS 2: Attention Mechanism and Transformers | news_article_labels.csv | MLS | CSV | ✅ |
+| MLS 2: Attention Mechanism and Transformers | Session Notebook: News Article Categorization | MLS | Notebook | ✅ |
+| Week 2: Additional Case Study | US_Airways.csv | Practice Exercise | CSV | ✅ |
+| Week 2: Additional Case Study | Solution Notebook: Airline Customer Review Sentiment Analysis | Practice Exercise | Notebook | ✅ |
+| Week 2: Additional Case Study | Product Reviews.csv (duplicate of Week 1 file) | Practice Exercise | CSV | ✅ (dup, not re-downloaded) |
+| Week 2: Additional Case Study | Solution Notebook - Product Reviews Sentiment Analysis | Practice Exercise | Notebook | ✅ |
+
+### Week 3 - Large Language Models and Prompt Engineering
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Week 3 - LLMs and Prompt Engineering | Lecture Slides - LLMs and Prompt Engineering | Lecture Notes | PDF | ✅ |
+| Week 3 - LLMs and Prompt Engineering | Lecture Notes - LLMs and Prompt Engineering | Lecture Notes | PDF | ✅ |
+| MLS 3: LLMs and Prompt Engineering | Session Presentation - Large Language Models and Prompt Engineering | MLS | PDF | ✅ |
+| MLS 3: LLMs and Prompt Engineering | restaurant_reviews.csv | MLS | CSV | ✅ |
+| MLS 3: LLMs and Prompt Engineering | Config File | MLS | Config | ✅ |
+| MLS 3: LLMs and Prompt Engineering | Session Notebook - Restaurant_Review_Analysis | MLS | Notebook | ✅ |
+| Week 3: Additional Case Study | News Articles dataset | Practice Exercise | CSV | ✅ |
+| Week 3: Additional Case Study | Session Notebook - News_Article_Categorization_and_Summarization | Practice Exercise | Notebook | ✅ |
+
+### Week 4 - Retrieval Augmented Generation
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Week 4 - Retrieval Augmented Generation | Lecture Slides: Retrieval Augmented Generation | Lecture Notes | PDF | ✅ |
+| Week 4 - Retrieval Augmented Generation | Lecture Notes: Retrieval Augmented Generation | Lecture Notes | PDF | ✅ |
+| MLS 4: Retrieval Augmented Generation | Session Presentation: Retrieval Augmented Generation | MLS | PDF | ✅ |
+| MLS 4: Retrieval Augmented Generation | How Apple is Organized for Innovation | MLS | PDF | ✅ |
+| MLS 4: Retrieval Augmented Generation | Session Notebook: Apple HBR Report Document Q&A | MLS | Notebook | ✅ |
+
+### Project: NLP with Generative AI — Medical Assistant
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Project: Medical Assistant | medical_diagnosis_manual.pdf | Project | PDF | ✅ |
+| Project: Medical Assistant | Template Notebook: Full-code Version | Project | Notebook | ✅ |
+| Project: Medical Assistant | Presentation Template | Project | PPTX | ✅ |
+| Project Support Session | Session Presentation - Project Support | Project | PDF | ✅ |
+| Project Solution | Solution Notebook: Medical Assistant | Project | Notebook | ✅ |
+| [ONLY FOR EVALUATORS] Project Detailed Rubric | Detailed Rubric: Medical Assistant | Project | PDF/DOCX | ✅ |
+
+### Additional Project: Stock Market News Sentiment Analysis and Summarization
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Additional Project: Stock Market News | stock_news.csv | Project | CSV | ✅ |
+| Additional Project: Stock Market News | glove.6B.100d.txt.word2vec | Project | Word2Vec | ✅ |
+| Additional Project: Stock Market News | Template Notebook: Full-code Version | Project | Notebook | ✅ |
+| Additional Project: Stock Market News | Template Notebook: Low-code Version | Project | Notebook | ✅ |
+| Additional Project: Stock Market News | Presentation Template | Project | PPTX | ✅ |
+| Additional Project Solution | Solution Notebook: Stock Market Sentiment Analysis and Summarization | Project | Notebook | ✅ |
+
+**Course 1 status:** Complete — no locked/inaccessible items found.
+
+---
+
+# Course 8: Generative AI
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Live Session Material - Agentic AI | Session Plan - Introduction to AI Agents | MLS | PDF | ✅ |
+| Live Session Material - Agentic AI | Session Deck - Introduction to AI Agents | MLS | PPTX/PDF | ✅ |
+| Live Session Material - Agentic AI | Session Notebook - Multi Agent System AI Helpdesk Copilot | MLS | Notebook | ✅ |
+| Live Session Material - Agentic AI | ticket_data.csv | MLS | CSV | ✅ |
+| Live Session Material - Agentic AI | config.json | MLS | JSON | ✅ |
+| Live Session Material - Multimodal Generative AI | Session Notebook - Browbake Case Study | MLS | Notebook | ✅ |
+| Live Session Material - Multimodal Generative AI | Sample Outputs - No-Code Tools | MLS | ZIP/Mixed | ✅ |
+| Live Session Material - Multimodal Generative AI | Sample Outputs - Python | MLS | ZIP/Mixed | ✅ |
+
+**Course 2 status:** Complete — no locked/inaccessible items found.
+
+---
+
+# Course 9: Model Deployment
 
 *Note: many "book icon" pages in this course contained embedded downloadable hyperlinks (unlike other courses) — each was opened individually to check for them.*
 
@@ -494,7 +502,99 @@ This manifest records every downloadable file (PDFs, Jupyter notebooks, datasets
 
 ---
 
-# Course 9: Introduction to Natural Language Processing
+# Course 10: Introduction to Computer Vision
+
+**⚠️ Almost entirely locked.** Only Course Overview is accessible (no downloadable files); every other section is locked.
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Course Overview | (Course Outline, Know Your Faculty, Learning Instruments — text only, no downloadable files) | — | — | — |
+| Week 1: Image Processing (7 Resources) | — | — | — | ⚠️ |
+| MLS 1: Image Processing (6 Resources) | — | — | — | ⚠️ |
+| Week 1: Reference Material (2 Resources) | — | — | — | ⚠️ |
+| Week 1: Additional Case Study (4 Resources) | — | — | — | ⚠️ |
+| Week 2: Convolutional Neural Networks (10 Resources) | — | — | — | ⚠️ |
+| MLS 2: Convolutional Neural Networks (6 Resources) | — | — | — | ⚠️ |
+| Week 2: Reference Material (6 Resources) | — | — | — | ⚠️ |
+| Week 2: Additional Case Study (4 Resources) | — | — | — | ⚠️ |
+| Week 2: Additional Learning Material (1 Resource) | — | — | — | ⚠️ |
+| Project: HelmNet (6 Resources) | — | — | — | ⚠️ |
+| Project Support Session: HelmNet (2 Resources) | — | — | — | ⚠️ |
+| Project Solution: HelmNet (2 Resources) | — | — | — | ⚠️ |
+| [ONLY FOR EVALUATORS] Project Detailed Rubric: HelmNet (2 Resources) | — | — | — | ⚠️ |
+| Additional Project: Plant Seedling Classification (6 Resources) | — | — | — | ⚠️ |
+| Additional Project Solution: Plant Seedling Classification (1 Resource) | — | — | — | ⚠️ |
+
+**Course 11 status:** Almost entirely locked. Only the Course Overview section was accessible (book pages only, no downloadable files). All 17 remaining sections (68 resources total) are locked.
+
+---
+
+# Course 11: Statistical Learning
+
+**⚠️ Almost entirely locked.** Only the Course Overview page is accessible (no downloadable files); every other section is locked.
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Module Overview | (Course Overview page — text only, no downloadable files) | — | — | — |
+| Week 1: Basic Statistics (8 Resources) | — | — | — | ⚠️ |
+| Mentor Session Content - Week 1 Basic Stats (4 Resources) | — | — | — | ⚠️ |
+| Week 2: Inferential Statistics (8 Resources) | — | — | — | ⚠️ |
+| Mentor Session Content - Inferential Statistics Week 2 (3 Resources) | — | — | — | ⚠️ |
+| Week 3 - Hypothesis Testing (10 Resources) | — | — | — | ⚠️ |
+| Week 3 - Hypothesis Testing Mentor Session Content (8 Resources) | — | — | — | ⚠️ |
+| Week 4 - Project (2 Resources) | — | — | — | ⚠️ |
+| Mentor Session Content - Project Debrief (5 Resources) | — | — | — | ⚠️ |
+| Project Solution (1 Resource) | — | — | — | ⚠️ |
+| Books for Reference (2 Resources) | — | — | — | ⚠️ |
+
+**Course 10 status:** Almost entirely locked. Only the Course Overview page was accessible (no downloadable files in it). All 10 remaining sections (52 resources total) are locked.
+
+---
+
+# Course 12: Recommendation Systems
+
+| Week/Section | File Name | Category | Type | Status |
+|---|---|---|---|---|
+| Intro to RecoSys, MBA, Popularity & Content Based | popularity based recommendations.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Intro to RecoSys, MBA, Popularity & Content Based | movies.csv | Additional Material | CSV | ✅ |
+| Intro to RecoSys, MBA, Popularity & Content Based | ratings.csv | Additional Material | CSV | ✅ |
+| Intro to RecoSys, MBA, Popularity & Content Based | cosine similarity.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Intro to RecoSys, MBA, Popularity & Content Based | content based recommendation_detailed.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Intro to RecoSys, MBA, Popularity & Content Based | Recommendation Systems slides.pdf | Lecture Notes | PDF | ✅ |
+| Intro to RecoSys, MBA, Popularity & Content Based | Recommendation Systems slides_v1.ppt.pptx | Lecture Notes | PPTX | ✅ |
+| Intro to RecoSys - Case study, dataset, presentation | Presentation - Intro to RecoSys | Lecture Notes | PDF | ✅ |
+| Intro to RecoSys - Case study, dataset, presentation | Case Study Notebook - Intro to RecoSys | Lecture Notebooks | Notebook | ✅ |
+| Intro to RecoSys - Case study, dataset, presentation | books.csv | Additional Material | CSV | ✅ |
+| Intro to RecoSys - Case study, dataset, presentation | jokes.csv | Additional Material | CSV | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | apriori based recommendation.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | item-item collab filtering.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | item-item cosine similarity.xlsx | Additional Material | XLSX | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | links.csv | Additional Material | CSV | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | matrix factorization.xlsx | Additional Material | XLSX | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | matrix factorization_detailed.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | movies (2).csv | Additional Material | CSV | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | ratings (1).csv | Additional Material | CSV | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | similarty measures.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | tags.csv | Additional Material | CSV | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | user-user cosine similarity.xlsx | Additional Material | XLSX | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | user-usercolabfilter.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | SVD.ipynb | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | Recommendation Systems_slides-1.pdf | Lecture Notes | PDF | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | Recommendation Systems_slides_v1.ppt.pptx | Lecture Notes | PPTX | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | SVD-1.pdf | Lecture Notes | PDF | ✅ |
+| Collaborative Filtering, SVD, Hybrid RecoSys | SVD_v1.ppt.pptx | Lecture Notes | PPTX | ✅ |
+| Collaborative Filtering - Case study, dataset, presentation | Presentation - Collaborative Filtering | Lecture Notes | PDF | ✅ |
+| Collaborative Filtering - Case study, dataset, presentation | Case Study Notebook - Collaborative Filtering | Lecture Notebooks | Notebook | ✅ |
+| Collaborative Filtering - Case study, dataset, presentation | rating_final.csv | Additional Material | CSV | ✅ |
+| Practice Project on Recommendation Systems | RS_Amazon Product Recommendation Project - Problem Statement | Project | PDF | ✅ |
+| Project Debrief (Recommendation Systems) | Project Debrief Presentation | Project | PDF | ✅ |
+| Project Debrief (Recommendation Systems) | Recommendation System Project Sample Solution Notebook | Project | Notebook | ✅ |
+
+**Course 7 status:** Complete — no locked/inaccessible items found. 33 files downloaded.
+
+---
+
+# Course 13: Introduction to Natural Language Processing
 
 **⚠️ Significant locked content — this was the first course with genuine access restrictions.** Only Course Overview and Week 1's core content are accessible; everything from Week 1 Reference Material onward (weeks 2–4, all Project 7 sections, and an entire alternate "Oct '24 and later cohorts" track) is locked.
 
@@ -527,97 +627,6 @@ This manifest records every downloadable file (PDFs, Jupyter notebooks, datasets
 | [Oct'24+ cohorts] MLS 1: Word Embeddings (6 Resources) | — | — | — | ⚠️ |
 
 **Course 9 status:** Only Week 1's core content is accessible (5 files downloaded). Roughly 19 further sections and dozens of resources are locked/inaccessible.
-
----
-
-# Course 10: Statistical Learning
-
-**⚠️ Almost entirely locked.** Only the Course Overview page is accessible (no downloadable files); every other section is locked.
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Module Overview | (Course Overview page — text only, no downloadable files) | — | — | — |
-| Week 1: Basic Statistics (8 Resources) | — | — | — | ⚠️ |
-| Mentor Session Content - Week 1 Basic Stats (4 Resources) | — | — | — | ⚠️ |
-| Week 2: Inferential Statistics (8 Resources) | — | — | — | ⚠️ |
-| Mentor Session Content - Inferential Statistics Week 2 (3 Resources) | — | — | — | ⚠️ |
-| Week 3 - Hypothesis Testing (10 Resources) | — | — | — | ⚠️ |
-| Week 3 - Hypothesis Testing Mentor Session Content (8 Resources) | — | — | — | ⚠️ |
-| Week 4 - Project (2 Resources) | — | — | — | ⚠️ |
-| Mentor Session Content - Project Debrief (5 Resources) | — | — | — | ⚠️ |
-| Project Solution (1 Resource) | — | — | — | ⚠️ |
-| Books for Reference (2 Resources) | — | — | — | ⚠️ |
-
-**Course 10 status:** Almost entirely locked. Only the Course Overview page was accessible (no downloadable files in it). All 10 remaining sections (52 resources total) are locked.
-
----
-
-# Course 11: Introduction to Computer Vision
-
-**⚠️ Almost entirely locked.** Only Course Overview is accessible (no downloadable files); every other section is locked.
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Course Overview | (Course Outline, Know Your Faculty, Learning Instruments — text only, no downloadable files) | — | — | — |
-| Week 1: Image Processing (7 Resources) | — | — | — | ⚠️ |
-| MLS 1: Image Processing (6 Resources) | — | — | — | ⚠️ |
-| Week 1: Reference Material (2 Resources) | — | — | — | ⚠️ |
-| Week 1: Additional Case Study (4 Resources) | — | — | — | ⚠️ |
-| Week 2: Convolutional Neural Networks (10 Resources) | — | — | — | ⚠️ |
-| MLS 2: Convolutional Neural Networks (6 Resources) | — | — | — | ⚠️ |
-| Week 2: Reference Material (6 Resources) | — | — | — | ⚠️ |
-| Week 2: Additional Case Study (4 Resources) | — | — | — | ⚠️ |
-| Week 2: Additional Learning Material (1 Resource) | — | — | — | ⚠️ |
-| Project: HelmNet (6 Resources) | — | — | — | ⚠️ |
-| Project Support Session: HelmNet (2 Resources) | — | — | — | ⚠️ |
-| Project Solution: HelmNet (2 Resources) | — | — | — | ⚠️ |
-| [ONLY FOR EVALUATORS] Project Detailed Rubric: HelmNet (2 Resources) | — | — | — | ⚠️ |
-| Additional Project: Plant Seedling Classification (6 Resources) | — | — | — | ⚠️ |
-| Additional Project Solution: Plant Seedling Classification (1 Resource) | — | — | — | ⚠️ |
-
-**Course 11 status:** Almost entirely locked. Only the Course Overview section was accessible (book pages only, no downloadable files). All 17 remaining sections (68 resources total) are locked.
-
----
-
-# Course 12: Introduction to Neural Networks
-
-**⚠️ Mostly locked.** Only Course Overview and Week 1's core video/lecture-notes content are accessible; Week 1's own sub-sections (Reference Material, Additional Learning Material, Additional Case Study) plus everything from MLS 1 onward is locked.
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Week 1: Introduction to Neural Networks | Hands_on_Introduction_to_Neural_Networks_Notebook.ipynb | Lecture Notebooks | Notebook | ✅ |
-| Week 1: Introduction to Neural Networks | Lecture Notes - Introduction to Neural Networks (Part 1).pdf | Lecture Notes | PDF | ✅ |
-| Week 1: Introduction to Neural Networks | Lecture Notes - Introduction to Neural Networks (Part 2).pdf | Lecture Notes | PDF | ✅ |
-| Week 1: Introduction to Neural Networks | Lecture Notes - Introduction to Neural Networks (Part 3).pdf | Lecture Notes | PDF | ✅ |
-| Week 1: Additional Learning Material (1 Resource) | — | — | — | ⚠️ |
-| Week 1: Reference Material (7 Resources) | — | — | — | ⚠️ |
-| Week 1: Additional Case Study (3 Resources) | — | — | — | ⚠️ |
-| MLS 1: Introduction to Neural Networks (5 Resources) | — | — | — | ⚠️ |
-| Week 2: Optimizing Neural Networks (5 Resources) | — | — | — | ⚠️ |
-| Week 2: Reference Material (2 Resources) | — | — | — | ⚠️ |
-| Week 2: Additional Learning Material (2 Resources) | — | — | — | ⚠️ |
-| Week 2: Additional Case Studies (6 Resources) | — | — | — | ⚠️ |
-| MLS 2: Optimizing Neural Networks (5 Resources) | — | — | — | ⚠️ |
-| Project Support Session: ReneWind (2 Resources) | — | — | — | ⚠️ |
-| Project: ReneWind - Solution (2 Resources) | — | — | — | ⚠️ |
-
-**Course 12 status:** Mostly locked. Only Week 1's core content was accessible (4 files downloaded). All 13 remaining sections (56 resources total) are locked.
-
----
-
-# Course 13: Program Overview
-
-Small mentor-orientation / program-info course, mostly locked.
-
-| Week/Section | File Name | Category | Type | Status |
-|---|---|---|---|---|
-| Mentor Training Overview | Mentor Training Overview (Mandatory).pdf | Program Info | PDF | ✅ |
-| Mentor Training Overview | Olympus Walkthrough.pdf | Program Info | PDF | ✅ |
-| Know Your Program - PGP-AIML | AIML Program - Delivery Structure.pdf | Program Info | PDF | ✅ |
-| Content: Mentored Learning Session Week 1 (5 Resources) | — | — | — | ⚠️ |
-| Session Best Practices & Learner Handling (2 Resources) | — | — | — | ⚠️ |
-
-**Course 13 status:** Complete. 3 files downloaded. Three sections (Mentored Learning Session Week 1, Session Best Practices & Learner Handling, Mentor Checkpoint Quiz) are locked.
 
 ---
 

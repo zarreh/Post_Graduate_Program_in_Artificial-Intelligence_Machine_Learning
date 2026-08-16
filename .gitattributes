@@ -1,4 +1,4 @@
 *.word2vec filter=lfs diff=lfs merge=lfs -text
-nlp_with_generative_ai/week_1/mls/glove.6B.100d.zip filter=lfs diff=lfs merge=lfs -text
-python_foundations/additional_material/X-ray[[:space:]]Data.zip filter=lfs diff=lfs merge=lfs -text
-machine_learning/week_3/practice_exercise/data.csv filter=lfs diff=lfs merge=lfs -text
+06_nlp_with_generative_ai/week_1/mls/glove.6B.100d.zip filter=lfs diff=lfs merge=lfs -text
+02_python_foundations/additional_material/X-ray Data.zip filter=lfs diff=lfs merge=lfs -text
+03_machine_learning/week_3/practice_exercise/data.csv filter=lfs diff=lfs merge=lfs -text
